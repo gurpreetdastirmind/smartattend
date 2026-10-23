@@ -5,4 +5,4 @@ export const API = axios.create({
 });
 
 export const SIGNAL_URL =
-  "https://smartattend-backend-7orv.onrender.com";
+  "https://smartattend-signal.onrender.com";
