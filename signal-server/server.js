@@ -5,7 +5,7 @@ const { Server } = require("socket.io");
 const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
-  cors: { origin: "*" },
+  cors: { origin: ["https://smartattend-frontend-nu.vercel.app/", "http://localhost:5173"] },
   maxHttpBufferSize: 1e7,
 });
 
